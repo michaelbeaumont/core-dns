@@ -1,0 +1,15 @@
+ts:53 {
+  bind tailscale0
+  tailscale ts
+  loadbalance round_robin
+  log
+  errors
+}
+vm:53 {
+  bind tailscale0
+  rewrite name suffix .vm .
+  # TODO filter on subnets
+  libvirt guest
+  log
+  errors
+}

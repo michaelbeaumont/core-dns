@@ -1,0 +1,34 @@
+# Maintainer: Michael Beaumont <mjboamail@gmail.com>
+pkgname=core-dns
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="DNS for core"
+makedepends=('go' 'make')
+arch=('i686' 'pentium4' 'x86_64' 'arm' 'armv7h' 'armv6h' 'aarch64')
+url="https://github.com/michaelbeaumont/core-dns"
+depends=()
+license=('Apache')
+provides=('core-dns')
+source=(
+    ${pkgname}-main.tar.gz::${url}/archive/main.tar.gz
+    core-dns.service
+    core-dns-sysusers.conf
+)
+sha256sums=(
+  'SKIP'
+  'SKIP'
+  'SKIP'
+)
+
+build() {
+  export GOPATH="$srcdir/build"
+  export PATH=$GOPATH/bin:$PATH
+  cd ${pkgname}-main
+  CGO_ENABLED=0 GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw" make
+}
+
+package() {
+  install -Dm755 "$srcdir/${pkgname}-main/core-dns" "$pkgdir/usr/bin/core-dns"
+  install -Dm644 "$srcdir/core-dns.service" "$pkgdir/usr/lib/systemd/system/core-dns.service"
+  install -Dm644 "$srcdir/core-dns-sysusers.conf" "$pkgdir/usr/lib/sysusers.d/core-dns.conf"
+}
