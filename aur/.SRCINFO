@@ -1,0 +1,24 @@
+pkgbase = core-dns
+	pkgdesc = DNS for core
+	pkgver = 0.0.2
+	pkgrel = 1
+	url = https://github.com/michaelbeaumont/core-dns
+	arch = i686
+	arch = pentium4
+	arch = x86_64
+	arch = arm
+	arch = armv7h
+	arch = armv6h
+	arch = aarch64
+	license = Apache
+	makedepends = go
+	makedepends = make
+	provides = core-dns
+	source = core-dns-main.tar.gz::https://github.com/michaelbeaumont/core-dns/archive/main.tar.gz
+	source = core-dns.service
+	source = core-dns-sysusers.conf
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = core-dns
