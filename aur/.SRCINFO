@@ -1,6 +1,6 @@
 pkgbase = core-dns
 	pkgdesc = DNS for core
-	pkgver = 0.0.3
+	pkgver = 0.0.4
 	pkgrel = 1
 	url = https://github.com/michaelbeaumont/core-dns
 	arch = i686
