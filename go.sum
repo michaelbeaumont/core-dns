@@ -23,6 +23,8 @@ github.com/coredns/coredns v1.11.1/go.mod h1:X0ac9RLzd/WAxKuEe3A52miPSm6XjfoxVNA
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dblohm7/wingoes v0.0.0-20230821191801-fc76608aecf0 h1:/dgKwHVTI0J+A0zd/BHOF2CTn1deN0735cJrb+w2hbE=
+github.com/dblohm7/wingoes v0.0.0-20230821191801-fc76608aecf0/go.mod h1:6NCrWM5jRefaG7iN0iMShPalLsljHWBh9v1zxM2f8Xs=
 github.com/dnstap/golang-dnstap v0.4.0 h1:KRHBoURygdGtBjDI2w4HifJfMAhhOqDuktAokaSa234=
 github.com/dnstap/golang-dnstap v0.4.0/go.mod h1:FqsSdH58NAmkAvKcpyxht7i4FoBjKu8E4JUPt8ipSUs=
 github.com/farsightsec/golang-framestream v0.3.0 h1:/spFQHucTle/ZIPkYqrfshQqPe2VQEzesH243TjIwqA=
@@ -81,8 +83,8 @@ github.com/mdlayher/socket v0.4.1 h1:eM9y2/jlbs1M615oshPQOHZzj6R6wMT7bX5NPiQvn2U
 github.com/mdlayher/socket v0.4.1/go.mod h1:cAqeGjoufqdxWkD7DkpyS+wcefOtmu5OQ8KuoJGIReA=
 github.com/michaelbeaumont/coredns-libvirt v0.1.0 h1:O7VElJxt5B/VTV7TNr/gX6qWGGC9YXaWRSSPu+DTqu0=
 github.com/michaelbeaumont/coredns-libvirt v0.1.0/go.mod h1:7xmlditXscw9n1UrS5oX7eRBrPRaeE8KrOu3EZ4okM8=
-github.com/michaelbeaumont/coredns-tailscale v0.0.0-20230819022806-86aa653ab173 h1:7ivUS7T3qxhMy85ypz4iui/HS3nK46VK6Fa33IqGzf8=
-github.com/michaelbeaumont/coredns-tailscale v0.0.0-20230819022806-86aa653ab173/go.mod h1:3qlmA1QLZl1VPhST4K875I12A0xsHmeBwdVUuZ1gTzA=
+github.com/michaelbeaumont/coredns-tailscale v0.3.0 h1:tLGGyWqrJhxT4BgEBjFqdFFADZ12cu6uQDFOEe3jwWo=
+github.com/michaelbeaumont/coredns-tailscale v0.3.0/go.mod h1:el1HTAI+HQtgfPcv4kdlkW4SCPbOHrGZTXI43qMmC0c=
 github.com/miekg/dns v1.1.31/go.mod h1:KNUDUusw/aVsxyTYZM1oqvCicbwhgbNgztCETuNZ7xM=
 github.com/miekg/dns v1.1.56 h1:5imZaSeoRNvpM9SzWNhEcP9QliKiz20/dA2QabIGVnE=
 github.com/miekg/dns v1.1.56/go.mod h1:cRm6Oo2C8TY9ZS/TqsSrseAcncm74lfK5G+ikN2SWWY=
@@ -195,5 +197,5 @@ gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 h1:qY1Ad8PODbnymg2pRbkyMT/ylpTrCM8P2RJ0yroCyIk=
 k8s.io/utils v0.0.0-20230406110748-d93618cff8a2/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
-tailscale.com v0.0.0-20230728201153-52212f432342 h1:ijH7LkAuF3NzynaQT42OFFjxXLkqjSYNRH8K8QE8b0E=
-tailscale.com v0.0.0-20230728201153-52212f432342/go.mod h1:pWMxmTeHzTK4CZEfGhou1J5W7NsuGYwKA5y69X7hGJY=
+tailscale.com v1.50.1 h1:q3lwxT2Y2ezc+FBCMHP8M14cgu1V0JiuLikojdsXuGU=
+tailscale.com v1.50.1/go.mod h1:lBw7+Mw2d7rea3kefGjYWN8IJkB5dyaakMNMOinNGDo=

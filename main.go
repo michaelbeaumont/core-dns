@@ -32,7 +32,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/tls"
 	_ "github.com/coredns/coredns/plugin/tsig"
 	_ "github.com/coredns/coredns/plugin/view"
-	_ "github.com/damomurf/coredns-tailscale"
+	_ "github.com/michaelbeaumont/coredns-tailscale"
 	_ "github.com/michaelbeaumont/coredns-libvirt"
 )
 

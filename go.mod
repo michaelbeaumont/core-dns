@@ -5,8 +5,8 @@ go 1.21
 require (
 	github.com/coredns/caddy v1.1.1
 	github.com/coredns/coredns v1.11.1
-	github.com/damomurf/coredns-tailscale v0.2.5
 	github.com/michaelbeaumont/coredns-libvirt v0.1.0
+	github.com/michaelbeaumont/coredns-tailscale v0.3.0
 )
 
 require (
@@ -18,6 +18,7 @@ require (
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/dblohm7/wingoes v0.0.0-20230821191801-fc76608aecf0 // indirect
 	github.com/dnstap/golang-dnstap v0.4.0 // indirect
 	github.com/farsightsec/golang-framestream v0.3.0 // indirect
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
@@ -47,7 +48,6 @@ require (
 	github.com/prometheus/procfs v0.10.1 // indirect
 	github.com/quic-go/qtls-go1-20 v0.3.1 // indirect
 	github.com/quic-go/quic-go v0.37.4 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go4.org/mem v0.0.0-20220726221520-4f986261bf13 // indirect
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516 // indirect
@@ -64,9 +64,5 @@ require (
 	google.golang.org/grpc v1.57.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
-	tailscale.com v1.46.1 // indirect
+	tailscale.com v1.50.1 // indirect
 )
-
-replace tailscale.com => tailscale.com v0.0.0-20230728201153-52212f432342
-
-replace github.com/damomurf/coredns-tailscale => github.com/michaelbeaumont/coredns-tailscale v0.0.0-20230819022806-86aa653ab173
