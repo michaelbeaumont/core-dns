@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/coredns/caddy v1.1.1
 	github.com/coredns/coredns v1.11.1
-	github.com/michaelbeaumont/coredns-libvirt v0.1.0
+	github.com/michaelbeaumont/coredns-libvirt v0.1.1
 	github.com/michaelbeaumont/coredns-tailscale v0.3.0
 )
 
@@ -61,7 +61,7 @@ require (
 	golang.org/x/tools v0.13.0 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230807174057-1744710a1577 // indirect
-	google.golang.org/grpc v1.57.0 // indirect
+	google.golang.org/grpc v1.57.1 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
 	tailscale.com v1.50.1 // indirect
