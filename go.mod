@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/coredns/caddy v1.1.1
 	github.com/coredns/coredns v1.11.1
-	github.com/michaelbeaumont/coredns-libvirt v0.1.1
+	github.com/michaelbeaumont/coredns-libvirt v0.2.0
 	github.com/michaelbeaumont/coredns-tailscale v0.3.0
 )
 
@@ -37,7 +37,7 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mdlayher/netlink v1.7.2 // indirect
 	github.com/mdlayher/socket v0.4.1 // indirect
-	github.com/miekg/dns v1.1.56 // indirect
+	github.com/miekg/dns v1.1.57 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.11.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
@@ -55,7 +55,7 @@ require (
 	golang.org/x/exp v0.0.0-20230801115018-d63ba01acd4b // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
-	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/sync v0.4.0 // indirect
 	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.13.0 // indirect

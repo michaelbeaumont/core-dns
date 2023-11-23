@@ -1,6 +1,6 @@
 # Maintainer: Michael Beaumont <mjboamail@gmail.com>
 pkgname=core-dns
-pkgver=0.0.5
+pkgver=0.0.6
 pkgrel=1
 pkgdesc="DNS for core"
 makedepends=('go' 'make')
