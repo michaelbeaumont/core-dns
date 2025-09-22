@@ -3,7 +3,7 @@ module github.com/michaelbeaumont/core-dns
 go 1.24.0
 
 require (
-	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98
+	github.com/coredns/caddy v1.1.3
 	github.com/coredns/coredns v1.12.4
 	github.com/michaelbeaumont/coredns-libvirt v0.2.0
 	github.com/michaelbeaumont/coredns-tailscale v0.3.0
